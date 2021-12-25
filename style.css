@@ -1,0 +1,57 @@
+body {
+  padding-top: 56px;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px 1px rgb(0, 0, 0, 0.05), 
+              0 4px 8px 5px rgb(0, 0, 0, 0.05);
+}
+
+*{
+  box-sizing: border-box !important;
+}
+
+
+/* Accordion - config*/
+
+.accordion-button-config:not(.collapsed) {
+ font-weight: bolder;
+ background: #21252925 !important;
+ color: black;
+ /* border-radius: 10px !important; */
+}
+
+/* our instructor */
+
+.instructors-card-inner:hover {
+  box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
+
+}
+
+@media(min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+.news-input {
+  max-width: 500px;
+}
+
+.box-icon {
+  font-size: 3rem;
+  line-height: 0.8;
+}
+
+.box-content {
+  max-width: 300px !important;
+}
+
+.instructors-card {
+  max-width: 260px !important;
+}
+
+.instructors-card img {
+  height: 200px !important;
+  width: 200px !important;
+}
